@@ -1,0 +1,16 @@
+package OOPS.PracticeQue;
+
+public class Example_6 {
+    public static void main(String[] args) {
+        Test t = new Test();
+        t.set_marks(95);
+        System.out.println("Test marks is: " + Test.marks);
+    }
+}
+
+class Test {
+    static int marks;
+    void set_marks(int marks){
+        this.marks = marks;
+    }
+}
